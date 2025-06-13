@@ -1,5 +1,5 @@
 {
-  "name": "drupal/cloud_orchestrator_recipe",
+  "name": "baldwinlouie/cloud_orchestrator_recipe",
   "description": "A recipe to configure cloud orchestrator.",
   "type": "drupal-recipe",
   "keywords": ["Drupal"],
