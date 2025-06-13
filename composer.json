@@ -1,0 +1,34 @@
+{
+  "name": "drupal/cloud_orchestrator_recipe",
+  "description": "A recipe to configure cloud orchestrator.",
+  "type": "drupal-recipe",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/cloud_orchestrator_recipe",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/cloud_orchestrator_recipe",
+    "source": "https://git.drupalcode.org/project/cloud_orchestrator_recipe"
+  },
+  "require": {
+      "drupal/core": "^10.3 || ^11",
+      "drupal/admin_toolbar": "^3",
+      "drupal/cloud": "8.x-dev",
+      "drupal/copyright_footer": "^3",
+      "drupal/ctools": "^4",
+      "drupal/ldap": "^4",
+      "drupal/login_destination": "^2.0@beta",
+      "drupal/memcache": "^2",
+      "drupal/module_filter": "^5",
+      "drupal/module_permissions": "^4",
+      "drupal/openid_connect_daccount": "^1",
+      "drupal/password_policy": "^4",
+      "drupal/queue_ui": "^3",
+      "drupal/real_aes": "^2",
+      "drupal/roleassign": "^2",
+      "drupal/simple_oauth": "^6",
+      "drupal/smtp": "^1",
+      "drupal/tfa": "^2",
+      "drush/drush": "^13"
+  }
+}
