@@ -37,7 +37,6 @@ config:
     vmware: '*'
     terraform: '*'
     openstack: '*'
-#    rigel: '*'
   actions:
     system.site:
       simpleConfigUpdate:
@@ -45,53 +44,3 @@ config:
     system.theme:
       simpleConfigUpdate:
         default: 'rigel'
-    block.block.rigel_breadcrumbs:
-      simpleConfigUpdate:
-        status: false
-    block.block.rigel_account_menu:
-      simpleConfigUpdate:
-        region: header
-    block.block.rigel_main_menu:
-      simpleConfigUpdate:
-        region: navigation_collapsible
-        settings:
-          depth: 3
-          expand_all_items: false
-    block.block.rigel_page_title:
-      simpleConfigUpdate:
-        region: content
-        weight: -6
-    block.block.rigel_powered:
-      simpleConfigUpdate:
-        region: footer
-    block.block.rigel_primary_admin_actions:
-      simpleConfigUpdate:
-        region: content
-        weight: -2
-    block.block.rigel_primary_local_tasks:
-      simpleConfigUpdate:
-        region: content
-        weight: -4
-    block.block.rigel_search_form_narrow:
-      simpleConfigUpdate:
-        status: false
-    block.block.rigel_search_form_wide:
-      simpleConfigUpdate:
-        status: false
-    block.block.rigel_secondary_local_tasks:
-      simpleConfigUpdate:
-        status: false
-    block.block.rigel_site_branding:
-      simpleConfigUpdate:
-        region: navigation
-    block.block.rigel_syndicate:
-      simpleConfigUpdate:
-        status: false
-    block.block.rigel_messages:
-      simpleConfigUpdate:
-        region: content
-        weight: -7
-    block.block.rigel_content:
-      simpleConfigUpdate:
-        region: content
-        weight: -1
