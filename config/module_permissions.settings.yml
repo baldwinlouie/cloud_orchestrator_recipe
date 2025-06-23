@@ -1,0 +1,7 @@
+managed_modules:
+  - cloud
+  - openstack
+protected_modules: {  }
+permission_blacklist:
+  - 'administer modules'
+  - 'administer permissions'
