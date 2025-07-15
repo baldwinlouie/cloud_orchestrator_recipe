@@ -1,0 +1,3 @@
+enable_redirect: true
+redirect_url: /user/login
+redirect_url_overrides: "/*/css/*\r\n/*/js/*\r\n/user/login\r\n/user/password\r\n/user/logout\r\n/user/register\r\n/user/reset/*\r\n/tfa/*"

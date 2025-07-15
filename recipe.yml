@@ -2,6 +2,7 @@ name: Cloud Orchestrator Recipe
 description: 'Cloud Orchestrator recipe'
 type: Administration
 install:
+  - anonymous_redirect
   - admin_toolbar
   - admin_toolbar_tools
   - aws_cloud

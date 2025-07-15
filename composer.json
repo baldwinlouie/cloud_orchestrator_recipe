@@ -11,6 +11,7 @@
     "source": "https://git.drupalcode.org/project/cloud_orchestrator_recipe"
   },
   "require": {
+      "drupal/anonymous_redirect": "^2",
       "drupal/core": "^10.3 || ^11",
       "drupal/admin_toolbar": "^3",
       "drupal/cloud": "8.x-dev",
