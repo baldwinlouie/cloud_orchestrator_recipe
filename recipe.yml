@@ -44,3 +44,6 @@ config:
     system.theme:
       simpleConfigUpdate:
         default: 'rigel'
+    aws_cloud.settings:
+      simpleConfigUpdate:
+        aws_cloud_instance_type_prices_spreadsheet: false
