@@ -1,6 +1,6 @@
 {
-  "name": "baldwinlouie/cloud_orchestrator_recipe",
-  "description": "A recipe to configure cloud orchestrator.",
+  "name": "drupal/cloud_orchestrator_recipe",
+  "description": "A recipe to install and configure cloud orchestrator.",
   "type": "drupal-recipe",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
